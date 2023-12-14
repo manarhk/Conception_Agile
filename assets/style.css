@@ -1,1 +1,196 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+    }
+#Header{
+       position: relative;
+       top: 0%;
+       width: 100%;
+       height: 40%;
+}
+#Header > h1{
+    font-size: medium;
+    position: relative;
+    top:-20px;
+    left: 50px;
+    width: fit-content;
+    
+}
+#leftcontainer{
+    position: relative;
+    text-align: left;
+    width: 50%;
+    left: 10%;
+    top: 70px;
+    
+}
+#leftcontainer> h2{
+    font-size:medium;
+}
+#leftcontainer> h1{
+    font-size: 80px;
+}
+#start{
+    background-color: #3993FF;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#rightcontainer{
+    position: relative;
+    left: 50%;
+    width: 50%;
 
+}
+#gamesettings{
+    position: relative;
+    display: block;
+    width: 40%;
+    left: 30%;
+    top: 150px;
+    height: 300px;
+}
+#gamesettings input{
+    background-color: transparent;
+    border: 2px solid rgb(208, 208, 208);
+    width: 95%;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 10%;
+}
+
+#gamesettings input::placeholder{
+    color: rgb(185, 185, 185);
+}
+#playernames{
+    background-color: white;
+    position: relative;
+    display: block;
+    width: 40%;
+    left: 26%;
+    top: 50px;
+    height: 300px;
+    z-index: 1;
+    border: gray solid 0.5px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 40px;
+    overflow: scroll;
+    scroll-behavior: auto;
+}
+#playernames input{
+    background-color: transparent;
+    position: relative;
+    border: 2px solid rgb(208, 208, 208);
+    width: 95%;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 10%;
+}
+
+#playernames input::placeholder{
+   
+    color: rgb(185, 185, 185);
+}
+#playernames button{
+    background-color: #3993FF;
+    display: inline-block;
+    border: transparent;
+    margin-inline-end: 56px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    left: 40%;
+}
+#playernames img{
+    position: relative;
+    width: 15px;
+    height: 18px;
+    display: flex;
+    top: -34%;
+    left: 94%;
+    opacity: 50%;
+
+}
+#shadow{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    left: -0%;
+    top: -0%;
+    background-color: black;
+    margin-left: 0%;
+    opacity: 50%;
+
+
+}
+#Create{
+    background-color: #3993FF;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    left: 33%;
+}
+.Select-control {
+    background-color: transparent;
+    border: 2px solid rgb(208, 208, 208);
+    width: 100%;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 10%;
+}
+#Gamesmode input{
+    border: transparent;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:white;
+    height: 10px;
+    border-radius: 70px;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cdcbcb;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
