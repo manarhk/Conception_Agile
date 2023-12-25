@@ -1,4 +1,5 @@
-# Conception_Agile_ Projet CAPI
-# Application de planning poker
-# Manar Hakoume / Kawther Djouad
+# Binôme:  Manar Hakoume / Kawther Djouad
+# Conception_Agile_ Projet CAPI     # Application de planning poker
+
+
 
