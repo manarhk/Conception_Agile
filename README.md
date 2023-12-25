@@ -1,5 +1,5 @@
-# Binôme:  Manar Hakoume / Kawther Djouad
-# Conception_Agile _ Projet CAPI
 
+# Project CAPI
+## Created by Manar Hakoume and Kawther Djouad
 
 
