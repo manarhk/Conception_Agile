@@ -1,0 +1,358 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+    }
+#Header{
+       position: relative;
+       top: 0%;
+       width: 100%;
+       height: 40%;
+}
+#Header > h1{
+    font-size: medium;
+    position: relative;
+    top:-20px;
+    left: 50px;
+    width: fit-content;
+    
+}
+#leftcontainer{
+    position: relative;
+    text-align: left;
+    width: 50%;
+    left: 10%;
+    top: 70px;
+    
+}
+#leftcontainer> h2{
+    font-size:medium;
+}
+#leftcontainer> h1{
+    font-size: 80px;
+}
+#start{
+    background-color: #3993FF;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+#rightcontainer{
+    position: relative;
+    left: 50%;
+    width: 50%;
+
+}
+#gamesettings{
+    position: relative;
+    display: block;
+    width: 40%;
+    left: 30%;
+    top: 150px;
+    height: 300px;
+}
+#gamesettings input{
+    background-color: transparent;
+    border: 2px solid rgb(208, 208, 208);
+    width: 95%;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 10%;
+}
+
+#gamesettings input::placeholder{
+    color: rgb(185, 185, 185);
+}
+#playernames{
+    background-color: white;
+    position: relative;
+    display: block;
+    width: 40%;
+    left: 26%;
+    top: 50px;
+    height: 300px;
+    z-index: 1;
+    border: gray solid 0.5px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 40px;
+    overflow: scroll;
+    scroll-behavior: auto;
+}
+#playernames input{
+    background-color: transparent;
+    position: relative;
+    border: 2px solid rgb(208, 208, 208);
+    width: 95%;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 10%;
+}
+
+#playernames input::placeholder{
+   
+    color: rgb(185, 185, 185);
+}
+#playernames button{
+    
+    display: inline-block;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    left: 40%;
+}
+#add-button{
+    background-color: #3993FF;
+}
+#delete-button{
+    margin-left: 80px;
+    background-color: #ff0000;
+    
+}
+#gotoGame{
+    margin-left: 50px;
+    background-color: #3993FF;
+    display: inline-block;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    left: 40%;
+}
+#playernames img{
+    position: relative;
+    width: 15px;
+    height: 18px;
+    display: flex;
+    top: -34%;
+    left: 94%;
+    opacity: 50%;
+
+}
+#shadow{
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    left: -0%;
+    top: -0%;
+    background-color: black;
+    margin-left: 0%;
+    opacity: 50%;
+
+
+}
+#Create{
+    background-color: #3993FF;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    left: 33%;
+}
+.Select-control {
+    background-color: transparent;
+    border: 2px solid rgb(208, 208, 208);
+    width: 100%;
+    height: 50px;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 10%;
+}
+#Gamesmode input{
+    border: transparent;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:white;
+    height: 10px;
+    border-radius: 70px;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #cdcbcb;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  #Players{
+    position: relative;
+    font-size: small;
+    width: fit-content;
+    left: 63%;
+    top: -80px;
+    
+  }
+  #Players h1{
+    display: inline-block;
+    margin-left: 30px;
+  }
+  #Players h1:hover {
+    border-bottom: 3px solid #3993FF; /* Change the border color on hover */
+  }
+  #Taches{
+    position: relative;
+    background-color: #b8d8ff;
+    width: 20%;
+    height: 500px;
+    float: right;
+    top: -45px;
+    border-radius: 30px;
+    
+  }
+  #Taches button{
+    position: relative;
+    left: 75px;
+    top: 40px;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #3993FF;
+
+  }
+  #cartes{
+    position: relative;
+    width: fit-content;
+    left: 10%;
+    top:350px;
+  }
+  #cartes img{
+    display: inline-block;
+    width: 50px;
+    height: 70px;
+    margin-left: 30px;
+    opacity: 50%;
+  }
+  #cartes img:hover {
+    transform: translateY(-5px);
+    opacity: 100%; /* Move the image up by 5 pixels on hover */
+  }
+  #votecards {
+    top: -60px;
+    position: relative;
+    background-color: #b8d8ff;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+  
+  .votecard-container {
+    text-align: center;
+  }
+  
+  .votecard-container img {
+    width: 50px;
+    height: 70px; /* Adjust the width as needed */
+  }
+  
+  .votecard-container h1 {
+    font-size: medium;
+    margin-top: 10px; /* Add spacing between the image and the heading */
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  #Voter{
+    position: relative;
+    left: 34%;
+    top: -170px;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #3993FF;
+    z-index: 1;
+  }
+  @keyframes scaleAnimation {
+    0%, 100% {
+      transform: scale(1); /* Initial and final state (normal size) */
+    }
+    50% {
+      transform: scale(1.2); /* Midpoint state (enlarged size) */
+    }
+  }
+  #whichplayerisvoting{
+    position: relative;
+    font-size:large;
+    width: fit-content;
+    left: 34%;
+    top: -200px;
+    animation: scaleAnimation 2s infinite;
+  }
+  #tache{
+    position: relative;
+    width: 80%;
+    height: 70px;
+    left: 25px;
+    top: 10px;
+    border: 0.5px solid #3993FF;
+    border-radius: 10px;
+  }
+  #tache::placeholder{
+    opacity: 50%;
+  }
+  #task-list{
+    position: relative;
+    top:40px;
+    height: 162px;
+    background-color: #ffffff;
+    
+  }
+  #task-list li{
+    position: relative;
+    top: 50px;
+    list-style: none;
+    font-size: large;
+  }
