@@ -39,5 +39,5 @@ Pour démarrer le serveur, exécutez :
 Les contributions à ce projet sont les bienvenues. Veuillez forker le dépôt et soumettre une demande de tirage avec vos modifications.
 
 ## Licence
-Ce projet est sous licence [MIT License](LICENSE.md).
+Ce projet est sous licence (LICENSE.md).
 
